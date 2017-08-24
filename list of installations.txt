@@ -1,0 +1,32 @@
+
+
+
+Command lines needed to do a screenshot:
+     sudo apt-get install imagemagick
+     
+     #run this and select the window to capture and save to 'screenshot.png' in current directory
+     import screenshot.png
+     #capture the entire screen after 2 seconds
+     #resize to 400x300 pixels
+     import -window root -delay 200 screenshot.png
+     
+
+for automatic ssh passwords
+     sudo apt-get install sshpass
+     
+for making a program executable you need pyinstaller    
+     sudo pip install pyinstaller
+     
+make an files for an execuatble program
+     pyinstaller --onefile --windowed ScreenShotUploader.py 
+     
+for keyboard shortcuts:
+     #this installs a program to manage custom shortcuts
+     #from http://ubuntuforums.org/showthread.php?t=79560
+     sudo apt-get install xbindkeys
+     sudo apt-get install xbindkeys-config
+
+to find a file on the system
+     sudo apt-get install apt-file
+     
+     
